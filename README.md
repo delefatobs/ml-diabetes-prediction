@@ -1,7 +1,7 @@
 # ml-diabetes-prediction
 
 This repository contains my end-to-end implementation of the ML midterm project.  
-I use the CDC Diabetes Health Indicators dataset to build a diabetes prediction model, package it as an API, containerize it with Docker, and optionally deploy it to Azure Container Apps.
+I use the CDC Diabetes Health Indicators dataset to build a diabetes prediction model, package it as an API, containerize it with Docker, and deployed it to Azure Container Apps.
 
 My goal with this project was to keep things simple, reproducible, and close to the kind of workflow I use in real data engineering work.
 
