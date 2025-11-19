@@ -1,0 +1,23 @@
+{
+  "client": "Thunder Client",
+  "collectionName": "Diabetes API",
+  "dateExported": "2025-01-01T00:00:00.000Z",
+  "version": "1.1",
+  "requests": [
+    {
+      "name": "Predict Diabetes",
+      "url": "https://diabetes-api-service.westeurope.azurecontainerapps.io/predict",
+      "method": "POST",
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "body": {
+        "type": "json",
+        "raw": "{\"gender\":\"female\",\"age\":45,\"hypertension\":0,\"heart_disease\":0,\"smoking_history\":\"never\",\"bmi\":27.3,\"HbA1c_level\":6.2,\"blood_glucose_level\":150}"
+      }
+    }
+  ]
+}
