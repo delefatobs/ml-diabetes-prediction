@@ -1,0 +1,17 @@
+[project]
+name = "diabetes-prediction"
+version = "0.1.0"
+description = "End-to-end Diabetes Prediction ML Project"
+requires-python = ">=3.10"
+
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "xgboost",
+    "joblib",
+]
+
+[tool.uv]

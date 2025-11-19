@@ -1,0 +1,9 @@
+data/*
+notebooks/*
+*.ipynb
+model.pkl
+models/trained_model.pkl
+deployment/*
+Dockerfile.azure
+Dockerfile.local
+*.zip
