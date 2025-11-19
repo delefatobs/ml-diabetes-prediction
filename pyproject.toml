@@ -1,17 +1,22 @@
 [project]
-name = "diabetes-prediction"
-version = "0.1.0"
-description = "End-to-end Diabetes Prediction ML Project"
+name = "diabetes-ml-service"
+version = "1.0.0"
+description = "End-to-end machine learning project for diabetes prediction using FastAPI, Docker, and Azure deployment."
+readme = "README.md"
 requires-python = ">=3.10"
 
 dependencies = [
     "fastapi",
     "uvicorn[standard]",
+    "pydantic",
     "pandas",
     "numpy",
     "scikit-learn",
     "xgboost",
     "joblib",
+    "matplotlib",
+    "seaborn",
+    "python-multipart",
+    "requests",
 ]
 
-[tool.uv]
